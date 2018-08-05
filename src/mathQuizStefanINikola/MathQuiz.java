@@ -16,29 +16,22 @@ public class MathQuiz {
 	}
 	
 	public void oduzimanje() {
-		int a = (int) (Math.random() * 10);
-		int b = (int) (Math.random() * 10);
-		System.out.println("\nKoliko je " + a + " - " + b + " ?");
-		unos = input.nextDouble();
-		if(unos == (a - b))
-			System.out.println("Tacan odgovor!");
-		else
-			System.out.println("Netacan odgovor!");
+		//Nikola
 	}
 	
 	public void mnozenje() {
-		int a = (int) (Math.random() * 10);
-		int b = (int) (Math.random() * 10);
-		System.out.println("\nKoliko je " + a + " * " + b + " ?");
-		unos = input.nextDouble();
-		if(unos == (a * b))
-			System.out.println("Tacan odgovor!");
-		else
-			System.out.println("Netacan odgovor!");
+		//Nikola
 	}
 	
 	public void dijeljenje() {
-		//Nikola
+		int a = (int) (Math.random() * 10);
+		int b = (int) (Math.random() * 10);
+		System.out.println("\nKoliko je " + a + " / " + b + " ?");
+		unos = input.nextDouble();
+		if(unos == ((double) a / b))
+			System.out.println("Tacan odgovor!");
+		else
+			System.out.println("Netacan odgovor!");
 	}
 	
 	public void korjenovanje() {
